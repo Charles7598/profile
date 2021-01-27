@@ -1,0 +1,112 @@
+.container
+{
+  background-color: #b5b6b6;
+  box-shadow: 10px 10px 5px #575A5E;
+  border: 4px solid #222823;
+  margin: 0 auto;
+}
+
+.big-box
+{
+  background-color: #c8e6e6;
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  border: 4px solid #222823;
+  border-radius: 15px 50px 30px 5px
+}
+
+.small-box
+{
+  background-color: #c8e6e6;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+  border: 4px solid #222823;
+  border-radius: 15px 50px 30px 5px
+}
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #08090A;
+}
+
+h1
+{
+  font-size: 70px;
+  font-weight: 600;
+}
+
+p
+{
+  font-size: 50px;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 50px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  list-style: none;
+}
+
+i:hover {
+  color: rgba(253, 101, 101, 0.993);
+}
+
+a
+{
+  text-decoration: none;
+  font-size: 40px;
+  color: #222823;
+}
+
+a:hover
+{
+  color: red
+}
+
+i
+{
+  color: #222823;
+}
+
+.img-of-me
+{
+  border-radius: 50%;
+  width: 500px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+  /* M-E-D-I-A */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
